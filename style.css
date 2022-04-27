@@ -1,0 +1,139 @@
+/*Menu*/
+.users,
+.briefcase,
+.train,
+.phone {
+  font-size: 1.25rem;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  line-height: 26px;
+  border: 2px solid transparent;
+  padding: 5px 5px 5px 5px;
+  transition: all 0.3s;
+  position: relative;
+}
+.train:before {
+  content: "\e900";
+  font-family: "icomoon";
+  position: absolute;
+  left: 2px;
+  color: green;
+}
+.phone:before {
+  content: "\e942";
+  font-family: "icomoon";
+  position: absolute;
+  left: 2px;
+  color: green;
+}
+.users:before {
+  content: "\e972";
+  font-family: "icomoon";
+  position: absolute;
+  left: 2px;
+  color: green;
+}
+.briefcase:before {
+  content: "\e9ae";
+  font-family: "icomoon";
+  position: absolute;
+  left: 2px;
+  color: green;
+}
+a:hover.users {
+  transition: all 0.3s;
+  border: 2px solid rgb(2, 122, 38);
+  border-radius: 10px;
+}
+a:hover.briefcase {
+  transition: all 0.3s;
+  border: 2px solid rgb(2, 122, 38);
+  border-radius: 10px;
+}
+a:hover.phone {
+  transition: all 0.3s;
+  border: 2px solid rgb(2, 122, 38);
+  border-radius: 10px;
+}
+a:hover.train {
+  transition: all 0.3s;
+  border: 2px solid rgb(2, 122, 38);
+  border-radius: 10px;
+}
+.menu{
+  padding: 2px;
+}
+/*Header*/
+header {
+  position: relative;
+  background-color: black;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+header::after {
+  background: rgba(149, 223, 180, 0.5);
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+header .container {
+  position: relative;
+  z-index: 2;
+}
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+.mt-6{
+  margin-top: 5rem !important
+}
+/*Users*/
+hr {
+  border: none; /* Убираем границу */
+  background-color:rgb(2, 122, 38); /* Цвет линии */
+  height: 1rem;
+ }
+ /*Кнопка прокрутки*/
+ .scrollup{
+  width:40px;
+  height:40px;
+  opacity:0.3;
+  position:fixed;
+  bottom:30px;
+  right:30px;
+  display:none;
+  text-indent:-9999px;
+  background: url('../images/icon_top.png') no-repeat;
+  }
+ 
+
+
+
+
+
+
+

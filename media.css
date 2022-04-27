@@ -1,0 +1,13 @@
+@media (min-width: 650px){
+    .header{
+        display: none;
+    }
+    .top{
+        font-size: 18px;
+    }
+}
+ @media (min-width: 300px){
+   .s{
+    font-size: 1em;
+  }
+}
